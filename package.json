@@ -1,0 +1,35 @@
+{
+  "name": "flying-cli",
+  "version": "0.0.1",
+  "description": "cli for flying",
+  "main": "index.js",
+  "bin": {
+    "fly-cli": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brucecodezone/flying-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "koa"
+  ],
+  "author": "bruceworkzone@outlook.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brucecodezone/flying-cli/issues"
+  },
+  "homepage": "https://github.com/brucecodezone/flying-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "download-git-repo": "^1.0.2",
+    "handlebars": "^4.0.11",
+    "inquirer": "^6.0.0",
+    "log-symbols": "^2.2.0",
+    "ora": "^2.1.0"
+  }
+}
